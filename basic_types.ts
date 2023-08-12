@@ -11,6 +11,8 @@ let firstName = 'Rafael'
 let lastName = 'Silva'
 let fullName: string = `Nome completo é: ${firstName} ${lastName}`
 
+console.log(fullName)
+
 // enums
 enum ROLES {
     ADMIN = 'admin',
