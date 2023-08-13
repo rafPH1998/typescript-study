@@ -25,4 +25,5 @@ let names = ['Rafael', 'Rodrigo', 'Felipe'] // apadrao
 let names1: string[] = ['Rafael', 'Rodrigo'] //esta definido que dentro do array só aceitara strings
 let names2: Array<string> = ['Rafael', 'Rodrigo'] // segundo jeito de fazer para array só aceitar strings
 let name3: Array<any> = ['Rafael', 'Rodrigo', true, 0] // rray sem restrição
-
+let ids: Array<number | string>;  //recebendo numeros ou strings dentro de um Array
+ids = [1, 'asdasdasdasasdas']
